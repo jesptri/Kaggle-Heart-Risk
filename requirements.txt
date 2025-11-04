@@ -1,6 +1,6 @@
 # Core data processing libraries
-pandas~=1.5.0
-numpy~=1.26.0
+pandas~=2.2.3
+numpy~=1.26.4
 
 # Plotting libraries
 matplotlib~=3.8.0
@@ -9,3 +9,6 @@ seaborn~=0.13.2
 # ML libraries
 scikit-learn~=1.4.0
 xgboost~=3.1.1
+
+# HTML extraction
+beautifulsoup4~=4.13.4
