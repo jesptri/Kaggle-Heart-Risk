@@ -1,2 +1,91 @@
-data/
-exploring_notes.md
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+Thumbs.db
+*.log
+
+# Data files (usually too large for git)
+data/train.csv
+data/test.csv
+data/extra.csv
+data/*.csv
+!data/labels_questions.csv  # Keep the extracted labels
+
+# HTML files (large)
+data/*.HTML
+data/*.html
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.pth
+
+# Prediction files (generated)
+predictions*.csv
+!predictions_svm_optimized.csv  # Keep best model predictions
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Project specific
+notes.md
+scratch/
+experiments/
