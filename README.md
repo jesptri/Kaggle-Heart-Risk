@@ -25,7 +25,7 @@ This project tackles a **binary classification problem** to predict cardiovascul
 - Class balancing: Enabled to handle imbalanced dataset (~9% positive class)
 - Selected 23 most relevant features from 322 total features
 
-## 🔍 Methodology
+## Methodology
 
 ### 1. Data Engineering (Author's Main Focus)
 - **Feature categorization**: Organized 325 features into thematic sections
@@ -45,7 +45,7 @@ The final model uses 23 features with strongest correlation to target:
 - **Preprocessing**: Handled missing values and encoded categorical variables
 - **Model**: Random Forest Classifier with 1,000 trees
 
-## 💡 Key Learnings
+## Key Learnings
 
 ### Data Engineering Insights
 1. **Feature categorization matters**: Organizing features by sections (Health Status, Demographics, etc.) helped understand the data structure
